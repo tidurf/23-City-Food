@@ -1,0 +1,55 @@
+/*Encabezado de pagina*/
+
+header{
+    background: rgb(9, 9, 184);
+}
+
+.imghead{
+    width: 300px;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/*pie de pagina*/
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+    
+}
+
+.copy{
+    color: #ffffff;
+    font-size: 12px;
+    padding: 20px;
+}

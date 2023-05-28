@@ -1,0 +1,130 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Encabezado de pagina*/
+
+header{
+    background: rgb(9, 9, 184);
+}
+
+.imghead{
+    width: 300px;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/*primer bloque del main*/
+
+.principal{
+    background: #fefefe;
+    padding: 20px;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulos{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    text-shadow: 2px 2px 5px lightgray;
+}
+
+.principal p{
+    line-height: 1.5;
+}
+
+/*Bloque del mapa*/
+
+.mapa{
+    padding: 3em 0;
+}
+
+.muestramapa{
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*Bloque promesas*/
+
+.promesa{
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.banner{
+    width: 60%;
+    height: 240px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 20px black;
+    display: inline-block;
+    
+}
+
+.texto-items{
+    width: 30%;
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    padding: 25px;
+}
+
+
+.items{
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.items:before{
+    content: "★";
+}
+
+/*pie de pagina*/
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+    
+}
+
+.copy{
+    color: #ffffff;
+    font-size: 12px;
+    padding: 20px;
+}
