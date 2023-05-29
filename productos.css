@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /*Encabezado de pagina*/
 
 header{
@@ -37,6 +41,94 @@ nav a{
 nav a:hover{
     color: red;
     text-decoration: underline;
+}
+
+/*cuerpo de productos*/
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    text-shadow: 2px 2px 5px lightgray;
+}
+
+.productos{
+    width: 1240px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+   
+}
+
+.productos li{
+    display: inline-block;
+    
+}
+
+.items{
+    display: inline-block;
+    vertical-align: top;
+    margin: 1em;
+    box-sizing: border-box;
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    clear: left;
+    box-shadow: 10px 10px 20px black;
+    transition: 500ms;
+}
+
+.items:hover{
+    border-color: green;
+    font-size: 1.1em;
+}
+
+.items h2{
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 0.5em 0 ;
+    clear: left;
+    text-shadow: 2px 2px 5px lightgray;
+}
+
+
+.items p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 0.5em 0 ;
+    clear: left;
+    text-shadow: 2px 2px 5px lightgray;
+}
+
+.detalle{
+    display: inline-block;
+    padding: 20px 30px;
+    
+    
+}
+
+.detalle li{
+    display: block;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.imgitem{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    vertical-align: top;
+    padding: 15px 0 0 10px;
+    
+}
+
+.proteina{
+    font-weight: bold;
+    font-style: italic;
+    color: red;
 }
 
 /*pie de pagina*/
